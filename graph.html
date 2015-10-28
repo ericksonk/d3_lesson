@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="graph.css">
+    <script src="d3.min.js"></script>
+  </head>
+
+
+  <body>
+    <h2>D3 Graphing Tool</h2>
+
+    <p id="intro">
+      Although this tool doesn't do much
+      <span class="muted">(yet)</span>,
+      pretty soon it's going to take the world by storm
+      <span class="muted">(trust us)</span>.
+    </p>
+
+    <svg id="graph">
+      <g transform="translate(100, 50) rotate(0)">
+      </g>
+    </svg>
+
+    <div>
+      <button id="update-data">gimme data</button>
+    </div>
+
+    <script src="graph.js"></script>
+  </body>
+</html>
